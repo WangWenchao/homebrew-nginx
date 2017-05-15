@@ -7,7 +7,7 @@ class CaptchaNginxModule < Formula
 
   bottle :unneeded
 
-  depends_on "imagemagick"
+  depends_on "imagemagick@6"
 
   def install
     pkgshare.install Dir["*"]
